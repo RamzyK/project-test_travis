@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63753AF123C64E41007465DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63753AF023C64E41007465DF /* AppDelegate.swift */; };
+		63753AF323C64E41007465DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63753AF223C64E41007465DF /* SceneDelegate.swift */; };
+		63753AF523C64E41007465DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63753AF423C64E41007465DF /* ViewController.swift */; };
+		63753AF823C64E41007465DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63753AF623C64E41007465DF /* Main.storyboard */; };
+		63753AFA23C64E42007465DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63753AF923C64E42007465DF /* Assets.xcassets */; };
+		63753AFD23C64E42007465DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63753AFB23C64E42007465DF /* LaunchScreen.storyboard */; };
+		63753B0E23C64EAC007465DF /* Algo2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63753B0D23C64EAC007465DF /* Algo2020Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63753B1023C64EAC007465DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63753AE523C64E40007465DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63753AEC23C64E40007465DF;
+			remoteInfo = Algo2020;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63753AED23C64E40007465DF /* Algo2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algo2020.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63753AF023C64E41007465DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63753AF223C64E41007465DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63753AF423C64E41007465DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63753AF723C64E41007465DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63753AF923C64E42007465DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63753AFC23C64E42007465DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63753AFE23C64E42007465DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63753B0B23C64EAC007465DF /* Algo2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Algo2020Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63753B0D23C64EAC007465DF /* Algo2020Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algo2020Tests.swift; sourceTree = "<group>"; };
+		63753B0F23C64EAC007465DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63753AEA23C64E40007465DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63753B0823C64EAC007465DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63753AE423C64E40007465DF = {
+			isa = PBXGroup;
+			children = (
+				63753AEF23C64E40007465DF /* Algo2020 */,
+				63753B0C23C64EAC007465DF /* Algo2020Tests */,
+				63753AEE23C64E40007465DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63753AEE23C64E40007465DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63753AED23C64E40007465DF /* Algo2020.app */,
+				63753B0B23C64EAC007465DF /* Algo2020Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63753AEF23C64E40007465DF /* Algo2020 */ = {
+			isa = PBXGroup;
+			children = (
+				63753AF023C64E41007465DF /* AppDelegate.swift */,
+				63753AF223C64E41007465DF /* SceneDelegate.swift */,
+				63753AF423C64E41007465DF /* ViewController.swift */,
+				63753AF623C64E41007465DF /* Main.storyboard */,
+				63753AF923C64E42007465DF /* Assets.xcassets */,
+				63753AFB23C64E42007465DF /* LaunchScreen.storyboard */,
+				63753AFE23C64E42007465DF /* Info.plist */,
+			);
+			path = Algo2020;
+			sourceTree = "<group>";
+		};
+		63753B0C23C64EAC007465DF /* Algo2020Tests */ = {
+			isa = PBXGroup;
+			children = (
+				63753B0D23C64EAC007465DF /* Algo2020Tests.swift */,
+				63753B0F23C64EAC007465DF /* Info.plist */,
+			);
+			path = Algo2020Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63753AEC23C64E40007465DF /* Algo2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63753B0123C64E42007465DF /* Build configuration list for PBXNativeTarget "Algo2020" */;
+			buildPhases = (
+				63753AE923C64E40007465DF /* Sources */,
+				63753AEA23C64E40007465DF /* Frameworks */,
+				63753AEB23C64E40007465DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algo2020;
+			productName = Algo2020;
+			productReference = 63753AED23C64E40007465DF /* Algo2020.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63753B0A23C64EAC007465DF /* Algo2020Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63753B1223C64EAC007465DF /* Build configuration list for PBXNativeTarget "Algo2020Tests" */;
+			buildPhases = (
+				63753B0723C64EAC007465DF /* Sources */,
+				63753B0823C64EAC007465DF /* Frameworks */,
+				63753B0923C64EAC007465DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63753B1123C64EAC007465DF /* PBXTargetDependency */,
+			);
+			name = Algo2020Tests;
+			productName = Algo2020Tests;
+			productReference = 63753B0B23C64EAC007465DF /* Algo2020Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63753AE523C64E40007465DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ramzy Kermad";
+				TargetAttributes = {
+					63753AEC23C64E40007465DF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					63753B0A23C64EAC007465DF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 63753AEC23C64E40007465DF;
+					};
+				};
+			};
+			buildConfigurationList = 63753AE823C64E40007465DF /* Build configuration list for PBXProject "Algo2020" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63753AE423C64E40007465DF;
+			productRefGroup = 63753AEE23C64E40007465DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63753AEC23C64E40007465DF /* Algo2020 */,
+				63753B0A23C64EAC007465DF /* Algo2020Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63753AEB23C64E40007465DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63753AFD23C64E42007465DF /* LaunchScreen.storyboard in Resources */,
+				63753AFA23C64E42007465DF /* Assets.xcassets in Resources */,
+				63753AF823C64E41007465DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63753B0923C64EAC007465DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63753AE923C64E40007465DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63753AF523C64E41007465DF /* ViewController.swift in Sources */,
+				63753AF123C64E41007465DF /* AppDelegate.swift in Sources */,
+				63753AF323C64E41007465DF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63753B0723C64EAC007465DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63753B0E23C64EAC007465DF /* Algo2020Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63753B1123C64EAC007465DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63753AEC23C64E40007465DF /* Algo2020 */;
+			targetProxy = 63753B1023C64EAC007465DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63753AF623C64E41007465DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63753AF723C64E41007465DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63753AFB23C64E42007465DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63753AFC23C64E42007465DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63753AFF23C64E42007465DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63753B0023C64E42007465DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63753B0223C64E42007465DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVJT3DP8AG;
+				INFOPLIST_FILE = Algo2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esgi.Algo2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63753B0323C64E42007465DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVJT3DP8AG;
+				INFOPLIST_FILE = Algo2020/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esgi.Algo2020;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63753B1323C64EAC007465DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVJT3DP8AG;
+				INFOPLIST_FILE = Algo2020Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esgi.Algo2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algo2020.app/Algo2020";
+			};
+			name = Debug;
+		};
+		63753B1423C64EAC007465DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVJT3DP8AG;
+				INFOPLIST_FILE = Algo2020Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = esgi.Algo2020Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algo2020.app/Algo2020";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63753AE823C64E40007465DF /* Build configuration list for PBXProject "Algo2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63753AFF23C64E42007465DF /* Debug */,
+				63753B0023C64E42007465DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63753B0123C64E42007465DF /* Build configuration list for PBXNativeTarget "Algo2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63753B0223C64E42007465DF /* Debug */,
+				63753B0323C64E42007465DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63753B1223C64EAC007465DF /* Build configuration list for PBXNativeTarget "Algo2020Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63753B1323C64EAC007465DF /* Debug */,
+				63753B1423C64EAC007465DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63753AE523C64E40007465DF /* Project object */;
+}
